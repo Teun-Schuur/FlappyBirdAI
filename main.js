@@ -1,5 +1,5 @@
 // How big is the population
-let totalPopulation = 1000;
+let totalPopulation = 500;
 // All active birds (not yet collided with pipe)
 let activeBirds = [];
 // All birds for any given population
@@ -26,7 +26,8 @@ let gener = 0;
 let generations;
 
 function setup() {
-  let canvas = createCanvas(1200, 400);
+  //let canvas = createCanvas(1200, 400);
+  let canvas = createCanvas(displayWidth-30, displayHeight-200);
   canvas.parent('canvascontainer');
 
   // Access the interface elements
